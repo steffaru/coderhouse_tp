@@ -1,0 +1,43 @@
+/*Agregar un espaciado del texto interior de 50% top y 40% left
+Dar una dimensión al contenido de la caja de 75% x 75%
+Agregar un borde de color de alrededor de 20px*/
+/*Finalmente agregar un margen de 40px en todas direcciones a nuestro BoxModel*/
+
+.BoxModel{
+	width: 75%;
+	height: 75%;
+	padding-top: 40%;
+	padding-left: 40%;
+	border: 20px solid black;
+	margin: 40px;
+}
+div p{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	color: darkgray;
+}
+.uno{
+	background: yellow;
+	float: right;
+}
+.dos{
+	background: aliceblue;
+	float: right;
+
+}
+.tres{
+	background: cyan;
+	float: right;
+
+}
+.cuatro{
+	background: pink;
+	float: right;
+
+}
+.cinco{
+	background: lightgreen;
+	float: right;
+
+}
